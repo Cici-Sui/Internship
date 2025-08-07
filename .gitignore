@@ -1,0 +1,10 @@
+# Ignore folders in Internship/
+features/
+Result_PCA/
+
+# Ignore specific absolute Windows path (has no effect unless repo is rooted here)
+# Git doesn't recognize Windows-style absolute paths, so use relative if possible.
+# This assumes your repo is at or above 'Internship/lfads-torch'
+lfads-torch/datasets/
+runs/
+SingleWordProductionDutch-iBIDS/
