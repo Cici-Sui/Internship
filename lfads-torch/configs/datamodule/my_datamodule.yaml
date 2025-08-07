@@ -1,0 +1,6 @@
+_target_: lfads_torch.datamodules.BasicDataModule
+datafile_pattern: ../../../../features/final_data/sub-10.h5 # Path to the HDF5 file  final_data是没有subject那个top-key的格式
+batch_size: 32   #<YOUR-BATCH-SIZE>
+# 这里加一行来确定只load某一个participant的数据
+# 报错了所以先注释掉 subject: sub-01
+# shuffle: False 这是自己加的不知道行不行
